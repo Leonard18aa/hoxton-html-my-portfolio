@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.bodymain{
+    background-color: rgba(255, 0, 0, 0.979);
+}
+
+.header{
+    margin: 20px;
+    padding-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: 
+    "leo Me" 60px/
+    300px 100px;
+    gap: 50%;
+    background-color: rgb(0, 0, 255);
+    border-radius: 10px;
+}
+
+.leo{
+    grid-area: leo;
+    padding: 0px 20px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.Me{
+    grid-area: Me;
+    background-color: aliceblue;
+    border-color: black;
+    /* text-decoration: none; */
+    border-radius: 20%;
+    border-color: rgb(0, 0, 255);
+    box-shadow: 2px 2px 3px black;
+    width: 100px;
+    height: 40px;
+}
+
+.goback{
+    border-radius: 20%;
+    border-color: rgb(0, 0, 255);
+    box-shadow: 2px 2px 3px black;
+    width: 100px;
+    height: 40px;
+}
+
+
+main{
+    border: 5px solid rgb(0, 0, 145);
+    background-color: rgb(0, 0, 255);
+    color: white;
+    width: 450px;
+    height: 140px;
+    display: block;
+    padding-left: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 49);
+    text-shadow: 3px 3px 4px black;
+}
+
+.perfect{
+    color: rgb(227, 252, 2);
+}
+
+.Projects{
+    color: rgb(227, 252, 2);
+}
+
+
+.task{
+    display: inline-flex;
+    text-align: center; 
+    display: grid;
+    grid-template: 
+    'component media news' 80px/
+    440px 440px 440px;
+    gap: 25px;
+    place-items: center;
+}
+
+
+.component{
+    grid-area: component;
+    border: 5px solid blue;
+    display: grid;
+    grid-auto-columns: 390px;
+    grid-auto-rows: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 116);
+    text-shadow: 3px 3px 4px black;
+}
+.media{
+    grid-area: media;
+    border: 5px solid blue;
+    display: grid;
+    grid-auto-columns: 390px;
+    grid-auto-rows: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 116);
+    text-shadow: 3px 3px 4px black;
+}
+.news{
+    grid-area: news;
+    border: 5px solid blue;
+    display: grid;
+    grid-auto-rows: 60px;
+    grid-auto-columns: 390px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 116);
+    text-shadow: 3px 3px 4px black;
+}
+
+.ex{
+  text-align: center;
+  font-style: normal;
+  text-shadow: 4px 4px 8px black ;
+}
+
+
+ul li{
+    background-color: blue;
+    color: white;
+    border: 5px solid rgb(0, 0, 122);
+    display: grid;
+    grid-template-rows: 10px 10px 10px 10px;
+    place-items: center;
+    padding-top: 20px;
+    text-shadow: 4px 4px 8px black;
+}
